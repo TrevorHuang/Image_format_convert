@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RGB888_Convert_to_JPEG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jaricom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapimin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcapistd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcarith.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccoefct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jccolor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcdctmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jchuff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcinit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmainct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmarker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcmaster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcomapi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcprepct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jcsample.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jctrans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapimin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdapistd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdarith.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatadst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdatasrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcoefct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdcolor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jddctmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdhuff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdinput.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmainct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmarker.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmaster.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdmerge.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdpostct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdsample.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jdtrans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jerror.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctflt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctfst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jfdctint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctflt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctfst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jidctint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jmemnobs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jquant2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libjpeg\jutils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libjpeg\cderror.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\cdjpeg.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jconfig.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jdct.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jerror.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jinclude.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jmemsys.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jmorecfg.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpegint.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jpeglib.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\jversion.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libjpeg\transupp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

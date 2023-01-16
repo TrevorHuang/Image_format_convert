@@ -16,7 +16,7 @@ int main()
     GdiplusStartup(&gdiplustoken, &gdiplusstartupinput, nullptr);
 
     wstring infilename(L"1.jpg");
-    string outfilename("rgb888.h");
+    string outfilename("BGR888.h");
     //读图片
     Bitmap* bmp = new Bitmap(infilename.c_str());
     UINT height = bmp->GetHeight();
@@ -27,7 +27,7 @@ int main()
     ofstream fout(outfilename.c_str());
     fout << "#ifndef _COLOR_H_" << endl;
     fout << "#define _COLOR_H_" << endl;
-    fout << "uint8_t imgRGB888[] = {" << endl;
+    fout << "uint8_t imgBGR888[] = {" << endl;
 
     for (int y = 0; y < height; y++)
         for (int x = 0; x < width; x++)

@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <fstream>
-#include "rgb888.h"
+#include "BGR888.h"
 
 using namespace std;
 
@@ -128,7 +128,7 @@ int Rgb888ConvertBmp(uint8_t* buf, int width, int height, const char* filename)
 
 int main()
 {
-	Rgb888ConvertBmp(imgRGB888, IMG_W, IMG_H, "RGB888.bmp");
+	Rgb888ConvertBmp(imgBGR888, IMG_W, IMG_H, "BGR888.bmp");
     std::cout << "Hello World!\n";
 }
 
