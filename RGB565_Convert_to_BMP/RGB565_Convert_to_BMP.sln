@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGB565_Convert_to_BMP", "RGB565_Convert_to_BMP\RGB565_Convert_to_BMP.vcxproj", "{601A5338-928F-476F-836E-F691BD308821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{601A5338-928F-476F-836E-F691BD308821}.Debug|x64.ActiveCfg = Debug|x64
+		{601A5338-928F-476F-836E-F691BD308821}.Debug|x64.Build.0 = Debug|x64
+		{601A5338-928F-476F-836E-F691BD308821}.Debug|x86.ActiveCfg = Debug|Win32
+		{601A5338-928F-476F-836E-F691BD308821}.Debug|x86.Build.0 = Debug|Win32
+		{601A5338-928F-476F-836E-F691BD308821}.Release|x64.ActiveCfg = Release|x64
+		{601A5338-928F-476F-836E-F691BD308821}.Release|x64.Build.0 = Release|x64
+		{601A5338-928F-476F-836E-F691BD308821}.Release|x86.ActiveCfg = Release|Win32
+		{601A5338-928F-476F-836E-F691BD308821}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E451A88-F16B-4A6C-BAFB-D4847713361C}
+	EndGlobalSection
+EndGlobal
